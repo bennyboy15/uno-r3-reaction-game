@@ -32,6 +32,7 @@ void setup() {
   pinMode(RED, OUTPUT);           // RED
   pinMode(YELLOW, OUTPUT);        // YELLOW
   pinMode(GREEN, OUTPUT);         // GREEN
+  pinMode(WHITE, OUTPUT);         // WHITE
   pinMode(BUTTON, INPUT_PULLUP);  // BUTTON
   turnOffLeds();  // ENSURE LEDS ARE OFF TO START
 }
